@@ -1,0 +1,126 @@
+nav {
+  font-family: "Author", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to right, #111, #222);
+  height: 4rem;
+  backdrop-filter: blur(5px);
+  transition: top 0.3s ease;
+}
+
+.navbar-show {
+  top: 0;
+}
+.navbar-hide {
+  top: -100px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  height: 2.5rem;
+}
+
+/* Center + Right merged menu */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.nav-links li {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.15rem;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.nav-links li:hover {
+  color: #920e15;
+  transform: scale(1.05);
+}
+.nav-links li.active-link {
+  color: #920e15;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+/* Right */
+.navbar-right button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.navbar-right button:hover {
+  box-shadow: 0 0 10px #920e15;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+@media screen and (max-width: 889px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 1rem 0;
+    display: none;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .navbar-menu.open {
+    display: flex;
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  @keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+}

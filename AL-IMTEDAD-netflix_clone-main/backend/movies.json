@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "The Order",
+    "logo": "/assets/posters/theorder.jpg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=pPZaOB4ea-0", 
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 2,
+    "name": "HIM",
+    "logo": "/assets/posters/him.jpg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=hpEy0iOixb4",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Wolf Man",
+    "logo": "/assets/posters/wolfman.jpg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=43R9l7EkJwE",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Superman",
+    "logo": "/assets/posters/superman.png",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Stranger Things",
+    "logo": "/assets/posters/strangerthings.png",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=iKZyYdwS3Wg",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 6,
+    "name": "In the Lost Lands",
+    "logo": "/assets/posters/inthelostlands.jpg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=CMyrp5Vk3mU",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 7,
+    "name": "F1® The Movie",
+    "logo": "/assets/posters/F1.png",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=8yh9PBUBbbQ",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 8,
+    "name": "The Fantastic Four: First Steps",
+    "logo": "/assets/posters/thefantasticfour.jpg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=G2gaVBY4-u4",
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  
+  {
+    "id": 9,
+    "name": "The Lost City",
+    "logo": "/assets/posters/thelostcity.jpeg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=vB0-Iqr1zqY", 
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  },
+  {
+    "id": 10,
+    "name": "The Last Voyage of the Demeter",
+    "logo": "/assets/posters/lastvoyage.jpeg",
+    "status": "available",
+    "streamURL": {
+      "fullscreen": "https://www.youtube.com/watch?v=6ELBL6d9t7w", 
+      "preview": "/assets/videos/netflixstock.mp4"
+    }
+  }
+  
+]

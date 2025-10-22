@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.error{
+    text-align: center;
+    padding: 50px;
+    color: #9c181f;
+}
+button{
+    background-color: rgb(182, 125, 125);
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color:#b54147;
+}
