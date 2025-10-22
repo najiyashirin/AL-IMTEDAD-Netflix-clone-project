@@ -124,3 +124,49 @@ nav {
     100% { opacity: 1; transform: translateY(0); }
   }
 }
+
+/* ========================================================= */
+/* ✅ ADDITIONS BELOW — for the new center links integration */
+/* ========================================================= */
+
+/* Wrapper for new middle link section */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.navbar-links a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #e50914; /* Netflix red hover color */
+  transform: scale(1.05);
+}
+
+/* Optional active link style (can be toggled dynamically) */
+.navbar-links a.active-link {
+  color: #e50914;
+  border-bottom: 2px solid #e50914;
+  padding-bottom: 3px;
+}
+
+/* Responsive layout for new links */
+@media screen and (max-width: 889px) {
+  .navbar-links {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .navbar-links a {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+}
