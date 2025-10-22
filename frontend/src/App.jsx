@@ -4,7 +4,6 @@ import FullScreen from "./pages/FullScreen.jsx";
 import HomePage from "./pages/HomePage.jsx";
 
 function App() {
-  try {
     return (
       <>
         <Routes>
@@ -15,10 +14,6 @@ function App() {
         </Routes>
       </>
     );
-  } catch (err) {
-    console.error("Error in App.jsx", err.message);
-    return <ErrorPage message={`Something went wrong: ${err.message}`} />;
-  }
-}
+  } 
 
 export default App;
