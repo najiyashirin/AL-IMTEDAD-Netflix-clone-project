@@ -15,16 +15,3 @@ git clone <repository-url>
 cd <repository-folder>
 
 
-Install dependencies:
-
-npm install
-
-
-Run the frontend:
-
-npm run dev
-
-
-Open your browser at:
-
-http://localhost:5173
