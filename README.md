@@ -12,6 +12,12 @@ A responsive Netflix web app mock showcasing 9 movies with interactive hover and
 1. Clone the repo and navigate into it:
 ```bash
 git clone <repository-url>
-cd <repository-folder>
+cd backend
+npm install
+npm start
 
+
+cd backend
+npm install
+npm run dev
 
